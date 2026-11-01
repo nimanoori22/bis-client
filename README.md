@@ -149,8 +149,8 @@ let client = Client::with_arm_builder(
 ```
 
 Use `bis_client::reqwest` (re-exported from rustopus) for configured clients.
-The direct reqwest dependency only enables gzip on that same version. The
-rustopus dependency is pinned to its GitHub commit; no sibling checkout is needed.
+The direct reqwest dependency only enables gzip on that same version.
+The rustopus dependency uses version 0.1.0 from crates.io.
 `with_arm_builder` uses the supplied builder settings without adding defaults.
 The BIS transport enforces the body-size limit during decompression/download,
 retains the final redirect URL, and never exposes partially received bodies.

@@ -1281,7 +1281,8 @@ dependencies = [
 [[package]]
 name = "rustopus"
 version = "0.1.0"
-source = "git+https://github.com/nimanoori22/rustopus.git?rev=3d2b8120343e58b3ed7c92052c54700a164afa51#3d2b8120343e58b3ed7c92052c54700a164afa51"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bbe5c6ad173c39e41f01bf9046fe651920288ca3ba78d94da129b44cb0bb466b"
 dependencies = [
  "bytes",
  "governor",

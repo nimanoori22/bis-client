@@ -1,0 +1,9 @@
+/target/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Rustfmt backup files
+*.rs.bk

@@ -1,0 +1,14 @@
+{
+  "source_url": "https://stats.bis.org/api/v1/data/WS_CBPOL/D.JP/all?startPeriod=2025-01-23&endPeriod=2025-01-28",
+  "accept": "application/vnd.sdmx.data+csv;version=1.0.0",
+  "recorded_at": "2026-10-29T23:00:33.656761+00:00",
+  "sha256": "d8bce0156ff666aa80d3b1cac0d58286cffa461005f5705016755b5574bea8ee",
+  "kind": "unmodified official response; current snapshot, not a historical publication vintage",
+  "monthly_fixture": {
+    "file": "japan_monthly.csv",
+    "source_url": "https://stats.bis.org/api/v1/data/WS_CBPOL/M.JP/all?startPeriod=2025-01&endPeriod=2025-03",
+    "accept": "application/vnd.sdmx.data+csv;version=1.0.0",
+    "recorded_at": "2026-10-29T23:06:01.728491+00:00",
+    "sha256": "0d175575121509db87d2522fab4a9c64f736eb9390be8affa3be3fba0590303e"
+  }
+}

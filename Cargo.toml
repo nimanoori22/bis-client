@@ -1,0 +1,21 @@
+[package]
+name = "bis-client"
+version = "0.2.0"
+edition = "2024"
+description = "Async BIS SDMX data and metadata client powered by rustopus"
+license = "MIT"
+repository = "https://github.com/nimanoori22/bis-client"
+
+[dependencies]
+chrono = { version = "0.4", features = ["serde"] }
+csv = "1.4"
+rustopus = { git = "https://github.com/nimanoori22/rustopus.git", rev = "3d2b8120343e58b3ed7c92052c54700a164afa51" }
+reqwest = { version = "0.13.5", default-features = false, features = ["rustls", "gzip"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+thiserror = "2"
+tokio = { version = "1", features = ["time"] }
+
+[dev-dependencies]
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "net", "io-util"] }

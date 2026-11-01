@@ -1,0 +1,30 @@
+[
+  {
+    "file": "dataflow.json",
+    "url": "https://stats.bis.org/api/v1/dataflow/BIS/WS_EER/latest?references=none",
+    "accept": "application/vnd.sdmx.structure+json;version=1.0.0",
+    "retrieved_on": "2026-11-02 (Asia/Tehran)",
+    "sha256": "95b27e2f9c5903cd106ff9687814f58d530955bd81c2b4224493f4eccd915580"
+  },
+  {
+    "file": "datastructure.json",
+    "url": "https://stats.bis.org/api/v1/datastructure/BIS/BIS_EER/1.0?references=none",
+    "accept": "application/vnd.sdmx.structure+json;version=1.0.0",
+    "retrieved_on": "2026-11-02 (Asia/Tehran)",
+    "sha256": "834e3d87583ec0639196ebc38f35ac0c3c7e06b2a4d68fc004dbdad0018e8f26"
+  },
+  {
+    "file": "codelist.json",
+    "url": "https://stats.bis.org/api/v1/codelist/BIS/CL_FREQ/latest?references=none",
+    "accept": "application/vnd.sdmx.structure+json;version=1.0.0",
+    "retrieved_on": "2026-11-02 (Asia/Tehran)",
+    "sha256": "0e8e2b3168b8673f9f24d279c62597d4fe338ad06cc812d9f0abf162367dadf4"
+  },
+  {
+    "file": "availability.json",
+    "url": "https://stats.bis.org/api/v1/availableconstraint/BIS,WS_EER,1.0/M.N.B.CH/all/all?mode=exact&references=none&startPeriod=2024-01&endPeriod=2024-02",
+    "accept": "application/vnd.sdmx.structure+json;version=1.0.0",
+    "retrieved_on": "2026-11-02 (Asia/Tehran)",
+    "sha256": "2c7d971120cc2675034c1abaeada746f7b9e20fb46a1b9281792ae8e49209fda"
+  }
+]
